@@ -9,4 +9,4 @@ The test fails and show a weird nested revert:
 boa.vyper.contract.BoaError: Revert("Revert(b'')")
 ```
 
-Which makes it sound like my custom revert message was literally `"Revert(b'')"`.
+**Which makes it sound like my custom revert message was literally `"Revert(b'')"`.**
